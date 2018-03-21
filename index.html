@@ -3,31 +3,51 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Sean LeRoy Bio</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <title>About Sean LeRoy</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/yeti.css">
+    <link rel="stylesheet" href="assets/stylesheets/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 
 <body>
-    <div id="header">
-        <nav>
-            <li class="fork"><a href="https://github.com/bigleroy14">View On GitHub</a></li>
-            <li class="fork"><a href="https://github.com/bigleroy14/DVDLibrarySWGuild">DVD Library</a></li>
-            <li class="fork"><a href="https://github.com/bigleroy14/ComplianceTrainer">Compliance Training</a></li>
-        </nav>
+    <div class="container">
+        <div id="header">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://github.com/sleroy18">Compliance Training</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://github.com/sleroy18/DVDLibrarySWGuild">DVD Library</a>
+                        <a class="dropdown-item" href="https://github.com/sleroy18/ComplianceTrainer">Compliance Training</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <!-- end header -->
-    <div class="wrapper">
-        <section>
-            <div id="title">
-                <h1>Bigleroy14.GitHub.io</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="scroller" style="">
+                <div id="" class="innerScrollArea">
+                    <ul id="instafeed"></ul>
+                </div>
             </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/script/instafeed.js"></script>
+    <script src="assets/script/instagram.js"></script>
 </body>
 
 </html>

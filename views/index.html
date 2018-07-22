@@ -1,0 +1,419 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sean LeRoy</title>
+    <link text/css rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- <link text/css rel="stylesheet" href="/stylesheets/yeti"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link text/css rel="stylesheet" href="/stylesheets/index.css">
+</head>
+
+<body>
+    <!-- Bootstrap row -->
+    <div class="row" id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="sidebar-expanded d-none
+                d-md-block">
+            <!-- Bootstrap List Group -->
+            <ul class="list-group">
+                <!-- Separator with title -->
+                <li class="list-group-item sidebar-separator-title
+                        text-muted d-flex align-items-center
+                        menu-collapsed">
+                    <small>MAIN MENU</small>
+                </li>
+                <!-- /END Separator -->
+                <!-- Menu with submenu -->
+                <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item
+                        list-group-item-action flex-column
+                        align-items-start">
+                    <div class="d-flex w-100 justify-content-start
+                            align-items-center">
+                        <span class="fa fa-dashboard fa-fw mr-3"></span>
+                        <span class="menu-collapsed">Experience</span>
+                        <span class="submenu-icon ml-auto"></span>
+                    </div>
+                </a>
+                <!-- Submenu content -->
+                <div id='submenu1' class="collapse sidebar-submenu">
+                    <a href="#middle" class="list-group-item
+                            list-group-item-action bg-dark text-white">
+                            <span class="menu-collapsed">Languages</span>
+                        </a>
+                    <a href="#experience-education" class="list-group-item
+                            list-group-item-action bg-dark text-white">
+                            <span class="menu-collapsed">Education</span>
+                        </a>
+                    <a href="#experience-work" class="list-group-item
+                            list-group-item-action bg-dark text-white">
+                            <span class="menu-collapsed">Work</span>
+                        </a>
+                </div>
+                <a href="/files/sleroyResume.pdf" target="_blank" aria-expanded="false" class="bg-dark list-group-item
+                        list-group-item-action flex-column
+                        align-items-start">
+                    <div class="d-flex w-100 justify-content-start
+                            align-items-center">
+                        <span class="fa fa-user fa-fw mr-3"></span>
+                        <span class="menu-collapsed">Download Resume</span>
+                    </div>
+                </a>
+                <a href="#" data-toggle="sidebar-colapse" class="bg-dark
+                        list-group-item list-group-item-action d-flex
+                        align-items-center">
+                    <div class="d-flex w-100 justify-content-start
+                            align-items-center">
+                        <span id="collapse-icon" class="fa fa-2x mr-3"></span>
+                        <span id="collapse-text" class="menu-collapsed">Collapse</span>
+                    </div>
+                </a>                
+            </ul>
+            <!-- List Group END-->
+        </div>
+        <!-- sidebar-container END -->
+        <!-- MAIN -->
+        <div id="main" class="main-collapsed">
+            <div id="top">
+                <div class="row center-align">
+                    <div class="col ">
+                        <div id="intro">
+                            <div class="header">Hello, I'm Sean LeRoy</div>
+                            <div class="headerSub">I love Web Development</div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="row media center-align">
+                    <div class="col">
+                        <a href="https://www.facebook.com/sean.leroy.5"><img src="/images/facebook-icon.ico"></a>
+                        <a href="https://www.instagram.com/sleroy18/"> <img src="/images/instagram-icon.png" ></a>
+                        <a href="https://www.linkedin.com/in/sean-leroy-3965a6b2/"><img src="/images/linkedin-icon.png" ></a>
+                    </div>
+                </div>
+                <div id="scrollContainer" class="row">
+                    <div class="col">
+                        <div id="scroller">
+                            <div id="innerScroll" class="innerScrollArea">
+                                <ul id="instafeed"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="middle">
+                <div id="languages">
+                    <div class="animation-element slide-left">
+                        <div class="header">
+                            <p>Languages</p>
+                        </div>
+                      </div>
+                    <div class="row center-align">
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="css-title" class="lang-title">
+                                    CSS
+                                </div>
+                                <div id="css-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="html-title" class="lang-title">
+                                    HTML
+                                </div>
+                                <div id="html-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="js-title" class="lang-title">
+                                    JavaScript
+                                </div>
+                                <div id="js-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="sql-title" class="lang-title">
+                                    SQL
+                                </div>
+                                <div id="sql-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row center-align">
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="java-title" class="lang-title">
+                                    Java
+                                </div>
+                                <div id="java-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="cSharp-title" class="lang-title">
+                                    C#
+                                </div>
+                                <div id="cSharp-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="dotNet-title" class="lang-title">
+                                    .Net
+                                </div>
+                                <div id="dotNet-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="node-title" class="lang-title">
+                                    Node.js
+                                </div>
+                                <div id="node-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row center-align">                                       
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="jquery-title" class="lang-title">
+                                    JQuery
+                                </div>
+                                <div id="jquery-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="lang-container">
+                                <div id="bootstrap-title" class="lang-title">
+                                    BootStrap
+                                </div>
+                                <div id="bootstrap-body" class="lang-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>                   
+                </div>
+                <div id="experience-education" class="education experience">
+                    <div class="animation-element slide-left"> 
+                        <div class="header">
+                            <div>Experiences</div>
+                        </div> 
+                        <div class="header2">
+                            <div>Education</div>
+                        </div>
+                    </div>                   
+                    <div class="row">
+                        <div class="col left">
+                            <div class="gallery-container">
+                                <div class="tz-gallery">
+                                    <div class="row">
+                                        <div class="col" data-toggle="tooltip" title="The Software Guild Webpage">
+                                            <div class="thumbnail">
+                                                <a class="lightbox" href="https://www.thesoftwareguild.com">
+                                                    <img src="/images/swg.png" alt="The Software Guild">
+                                                </a>
+                                                <div class="gallery-body">                                                    
+                                                    <div class="caption">
+                                                        <h5>Apprentice</h5>
+                                                    </div>
+                                                    <div class="text">
+                                                        Apprentice at The Software Guild of Akron, Ohio granduating with a certification in Java Full Stack Web Development.                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col center-align">
+                            <div class="gallery-container">
+                                <div class="tz-gallery">
+                                    <div class="row">
+                                        <div class="col" data-toggle="tooltip" title="John Carroll Webpage">
+                                            <div class="thumbnail">
+                                                <a class="lightbox" href="https://www.jcu.edu">
+                                                    <img src="/images/jcu.jpg" alt="John Carroll University">
+                                                </a>
+                                                <div class="gallery-body">                                                    
+                                                    <div class="caption">
+                                                        <h5>John Carroll University - BS in Computer Science</h5>
+                                                    </div>
+                                                    <div class="text">
+                                                        Graduating May 20th, 2018 with a Bachelors in Computer Science
+                                                        <br>
+                                                        GPA: 3.48                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col left">
+                            <div class="gallery-container">
+                                <div class="tz-gallery">
+                                    <div class="row">
+                                        <div class="col" data-toggle="tooltip" title="Loyola Webpage">
+                                            <div class="thumbnail">
+                                                <a class="lightbox" href="https://www.luc.edu">
+                                                    <img src="/images/loyola.jpg" alt="Loyola of Chicago">
+                                                </a>
+                                                <div class="gallery-body">                                                    
+                                                    <div class="caption">
+                                                        <h5>Loyola of Chicago - John Felice Rome Center</h5>
+                                                    </div>
+                                                    <div class="text">
+                                                        Studied abroad in Rome, Italy from January 11th, 2017 through April 29th. 2017. 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col center-align">
+                            <div class="gallery-container">
+                                <div class="tz-gallery">
+                                    <div class="row">
+                                        <div class="col" data-toggle="tooltip" title="Lakeland CC Website">
+                                            <div class="thumbnail">
+                                                <a class="lightbox" href="https://www.lakelandcc.edu">
+                                                    <img src="/images/lakeland.jpg" alt="Lakeland CC">
+                                                </a>
+                                                <div class="gallery-body">                                                    
+                                                    <div class="caption">
+                                                        <h5>Lakeland Community College - Associates of Arts</h5>
+                                                    </div>
+                                                    <div class="text">
+                                                        Post secondary education at Lakeland Community College where I attended during my junior and senior year of high school.
+                                                        <br>
+                                                        Obtained an Assocaites of Arts degree in May, 2014.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div id="experience-work" class="experience">
+                    <div class="animation-element slide-left"> 
+                        <div class="header2">
+                            <div>Work</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col left">
+                            <div class="gallery-container">
+                                <div class="tz-gallery">
+                                    <div class="row">
+                                        <div class="col" data-toggle="tooltip" title="Trilogy Education Website">
+                                            <div class="thumbnail">
+                                                <a class="lightbox" href="https://www.trilogyed.com">
+                                                    <img src="/images/trilogy.png" alt="Trilogy Education Services">
+                                                </a>
+                                                <div class="gallery-body">                                                    
+                                                    <div class="caption">
+                                                        <h5>Trilogy Education Services - Teaching Assistant</h5>
+                                                    </div>
+                                                    <div class="text">
+                                                        Teaching Assistant for a full stack development bootcamp.
+                                                        <br>
+                                                        Languages and frameworks taught include but are not limited to HTML, CSS, Javascript, JQuery, Node.js, and SQL.                              
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col center-align">
+                            <div class="gallery-container">
+                                <div class="tz-gallery">
+                                    <div class="row">
+                                        <div class="col" data-toggle="tooltip" title="TMW Systems Website">
+                                            <div class="thumbnail">
+                                                <a class="lightbox" href="https://www.tmwsystems.com">
+                                                    <img src="/images/tmw.png" alt="TMW Systems">
+                                                </a>
+                                                <div class="gallery-body">                                                    
+                                                    <div class="caption">
+                                                        <h5>TMW Systems - Professional Services Intern</h5>
+                                                    </div>
+                                                    <div class="text">
+                                                            Work closely with a team of software implementers and project managers to
+                                                            come up with Jira tickets explaining in great detail the needs of our Beta
+                                                                software.     
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--row end -->  
+                    <div class="row">
+                        <div class="col left">
+                            <div class="gallery-container">
+                                <div class="tz-gallery">
+                                    <div class="row">
+                                        <div class="col" data-toggle="tooltip" title="Chart Industries Webpage">
+                                            <div class="thumbnail">
+                                                <a class="lightbox" href="https://www.chartindustries.com">
+                                                    <img src="/images/chart.png" alt="Chart Industries">
+                                                </a>
+                                                <div class="gallery-body">                                                    
+                                                    <div class="caption">
+                                                        <h5>Chart Industries - Web Devlopment Intern</h5>
+                                                    </div>
+                                                    <div class="text">
+                                                        Designed, created, and deployed a series of C# web applications that would allow
+                                                        employees to update their company profiles based on user credentials.      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col center-align">
+                            
+                        </div>
+                    </div> 
+                </div> <!--experience-work end-->
+            </div> <!--middle div end-->
+        </div> <!--Main Col END -->
+    </div><!-- body-row END -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/script/progressbar.min.js"></script>
+    <script type="text/javascript" src="/script/spinner.js"></script>
+    <script type="text/javascript" src="/script/instafeed.js"></script>
+    <script type="text/javascript" src="/script/instagram.js"></script>
+    <script type="text/javascript" src="/script/index.js"></script>
+</body>
+
+</html>
